@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/joq5sgs.css");
+:root {
+	--white: #fff;
+	--primary-light: #efe7d2;
+	--primary-color: #b79347;
+	--primary-dark: #93773a;
+	--almost-black: #3e2a0e;
+
+	--background: #fdfbf5;
+	--text-color: var(--almost-black);
+
+	--cursive: "beloved-script", cursive;
+	--sans-serif: arial, sans-serif;
+
+	--normal: 400;
+	--bold: 600;
+	--extra-bold: 700;
+
+	--border-radius: 5px;
+}
+
+a {
+	font-weight: 500;
+	text-decoration: inherit;
+}
+
+body {
+	margin: 0;
+
+	font-family: var(--sans-serif);
+	font-weight: var(--normal);
+
+	background-color: var(--background);
+	color: var(--text-color);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+	font-family: var(--cursive);
+	color: var(--primary-color);
+}
+
+button {
+	background-color: var(--primary-color);
+	border: none;
+	padding: 1rem;
+	border-radius: var(--border-radius);
+	color: var(--primary-light);
+}
+
+button:hover {
+	background-color: var(--primary-dark);
+}

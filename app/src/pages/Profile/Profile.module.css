@@ -1,0 +1,91 @@
+.container {
+	display: flex;
+	flex-direction: row;
+
+	margin: 1rem 3rem;
+	gap: 2rem;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+.logout_btn {
+	align-self: flex-end;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+}
+
+.personal_info__label {
+	font-weight: var(--bold);
+	color: var(--primary-dark);
+}
+
+.edit_btn {
+	max-width: 11rem;
+	margin-top: 3rem;
+}
+
+.profile_form__label,
+.profile_form__input {
+	display: block;
+	color: var(--primary-color);
+}
+
+.profile_form__label {
+	font-size: 1.5rem;
+	font-family: var(--cursive);
+	margin-top: 1rem;
+}
+
+.profile_form__input {
+	width: 30rem;
+	height: 1.5rem;
+	border: 1px solid var(--primary-color);
+	border-radius: var(--border-radius);
+}
+
+.profile_form__buttons {
+	margin-top: 2rem;
+}
+
+.profile_form__cancel {
+	color: var(--primary-color);
+	text-decoration: underline;
+	margin-right: 1rem;
+}
+
+.profile_form__cancel:hover {
+	color: var(--primary-dark);
+}
+
+@media screen and (max-width: 1060px) {
+	.container {
+		gap: 1rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.info {
+		flex-direction: column;
+		gap: 0rem;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.profile_form__input {
+		width: 80vw;
+	}
+}

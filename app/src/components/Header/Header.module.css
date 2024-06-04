@@ -1,0 +1,37 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 5rem;
+	width: 100vw;
+
+	background-color: var(--background);
+
+	position: sticky;
+	top: 0;
+}
+
+.header__logo_img {
+	padding: 1rem;
+	height: 5rem;
+	width: 5rem;
+}
+
+.header__nav {
+	display: flex;
+	gap: 1rem;
+	padding-right: 2rem;
+}
+
+.header__nav_item:hover,
+.header__nav_item_active,
+.header__nav_item_pending {
+	border-bottom: 3px solid var(--primary-dark);
+	transition: 0.2s;
+}
+
+.header__nav_img {
+	height: 2rem;
+	width: 2rem;
+}

@@ -1,0 +1,162 @@
+.container {
+	margin: 1rem 3rem;
+}
+
+.products {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.product__card {
+	width: 70%;
+	border: 1px solid var(--primary-dark);
+	border-radius: var(--border-radius);
+	display: flex;
+	flex-direction: row;
+}
+
+.product__card_img {
+	padding: 1rem;
+	max-width: 10rem;
+}
+
+.product__card_text {
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	line-height: 1;
+}
+
+.product__card_title {
+	margin-top: 0.5rem;
+	color: var(--primary-dark);
+	font-family: var(--cursive);
+	font-size: 2rem;
+}
+
+.flex_right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-left: 1rem;
+}
+
+.product__card_price {
+	color: var(--primary-dark);
+	font-family: var(--sans-serif);
+}
+
+.order_btn {
+	margin-top: 2rem;
+}
+
+.order_btn a {
+	color: var(--primary-light);
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	gap: 5rem;
+}
+
+.personal_info__label {
+	font-weight: var(--bold);
+	color: var(--primary-dark);
+}
+
+.edit_btn {
+	max-width: 11rem;
+}
+
+.profile_form__label,
+.profile_form__input {
+	display: block;
+	color: var(--primary-color);
+}
+
+.profile_form__label {
+	font-size: 1.5rem;
+	font-family: var(--cursive);
+	margin-top: 1rem;
+}
+
+.profile_form__input {
+	width: 30rem;
+	height: 1.5rem;
+	border: 1px solid var(--primary-color);
+	border-radius: var(--border-radius);
+}
+
+.profile_form__buttons {
+	margin-top: 2rem;
+}
+
+.profile_form__cancel {
+	color: var(--primary-color);
+	text-decoration: underline;
+	margin-right: 1rem;
+}
+
+.profile_form__cancel:hover {
+	color: var(--primary-dark);
+}
+
+@media screen and (max-width: 950px) {
+	.product__card {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.product__card {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.product__card_img {
+		max-width: 7rem;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	.product__card_img {
+		max-width: 5rem;
+	}
+
+	.product__card_title {
+		font-size: 1.7rem;
+	}
+
+	.delete_btn {
+		padding: 0.5rem;
+		font-size: 0.8rem;
+	}
+
+	.profile_form__input {
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.product__card {
+		flex-wrap: wrap;
+	}
+
+	.product__card_text {
+		flex-direction: column;
+	}
+
+	.flex_right {
+		align-items: flex-start;
+	}
+
+	.container {
+		margin: 1rem;
+	}
+}

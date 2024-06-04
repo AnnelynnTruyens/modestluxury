@@ -1,0 +1,31 @@
+.cp_container {
+	display: flex;
+	flex-direction: row;
+
+	margin: 1rem;
+	gap: 2rem;
+}
+
+.cp_main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.cp_main__card {
+	background-color: var(--primary-color);
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--primary-light);
+	font-size: 3rem;
+	font-family: var(--cursive);
+}
+
+.cp_main__card:hover {
+	background-color: var(--primary-dark);
+	transition: 0.1s;
+}

@@ -1,0 +1,29 @@
+#root {
+	margin: 0;
+	text-align: left;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.single-page-container {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.single-page-container h1 {
+	text-align: center;
+}
+
+.single-page__span {
+	font-weight: var(--bold);
+}
+
+.single-page__link {
+	color: var(--primary-color);
+}
+.single-page__link:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,135 @@
+.title {
+	margin: 3rem;
+}
+.links__card1 {
+	background-color: var(--primary-color);
+	color: var(--primary-light);
+	text-align: center;
+	width: 100vw;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.links__card2 {
+	background-color: var(--primary-light);
+	color: var(--primary);
+	text-align: center;
+	width: 100vw;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.links__card_img1 {
+	width: 50vw;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 65%;
+}
+
+.links__card_img2 {
+	width: 50vw;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 35%;
+}
+
+.links__card_img3 {
+	width: 50vw;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 48%;
+}
+
+.links__card_img4 {
+	width: 50vw;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 45%;
+}
+
+.links__card_img5 {
+	width: 50vw;
+	height: 15rem;
+	object-fit: cover;
+	object-position: 50% 35%;
+}
+
+.links__card_textbox1,
+.links__card_textbox2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 50vw;
+}
+
+.links__card_text1 {
+	color: var(--primary-light);
+}
+
+@media screen and (max-width: 1000px) {
+	.links__card_img1 {
+		object-position: 50% 70%;
+	}
+
+	.links__card_img3 {
+		object-position: 50% 55%;
+	}
+
+	.links__card_img4 {
+		object-position: 50% 50%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.links__card_img1 {
+		object-position: 50% 80%;
+	}
+
+	.links__card_img3 {
+		object-position: 50% 60%;
+	}
+
+	.links__card_img4 {
+		object-position: 50% 60%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.links__card1,
+	.links__card2 {
+		margin-bottom: 3rem;
+		flex-wrap: wrap;
+	}
+
+	.links__card2 {
+		flex-direction: column-reverse;
+	}
+
+	.links__card1:last-of-type {
+		margin: 0;
+	}
+
+	.links__card_img1,
+	.links__card_img2,
+	.links__card_img3,
+	.links__card_img4,
+	.links__card_img5 {
+		width: 100vw;
+	}
+
+	.links__card_img1 {
+		object-position: 50% 75%;
+	}
+
+	.links__card_img4 {
+		object-position: 50% 55%;
+	}
+
+	.links__card_text1,
+	.links__card_text2 {
+		font-size: 2rem;
+	}
+}

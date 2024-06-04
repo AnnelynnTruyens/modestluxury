@@ -1,0 +1,37 @@
+.container {
+	border: 1px solid var(--primary-color);
+	border-radius: var(--border-radius);
+	background-color: white;
+	margin-top: 3rem;
+	width: 100%;
+	min-width: 80vw;
+}
+
+.heading {
+	border-bottom: 1px solid var(--primary-color);
+	padding: 0 0 0 1rem;
+	font-family: var(--cursive);
+	font-size: 1.7rem;
+	color: var(--primary-color);
+}
+
+.form {
+	display: flex;
+	align-items: end;
+	padding: 0 0.5rem 0.5rem 0;
+}
+
+.form__textarea {
+	width: 99%;
+	height: 20rem;
+	border: none;
+	color: var(--text-color);
+}
+
+.form__textarea:focus {
+	outline: none;
+}
+
+.form__btn {
+	text-align: right;
+}
