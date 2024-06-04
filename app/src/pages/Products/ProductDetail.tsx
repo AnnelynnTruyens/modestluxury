@@ -167,7 +167,7 @@ const ProductDetail = () => {
 				<div className={style.product}>
 					<img
 						className={style.product__img}
-						src="./ML-logo-small.svg"
+						src="/ML-logo-small.svg"
 						alt="product image"
 					/>
 					<div className={style.product_info}>

@@ -6,7 +6,7 @@ const Footer = () => {
 	return (
 		<footer className={style.footer}>
 			<img
-				src="./pexels-pnw-prod-8995945.jpg"
+				src="/pexels-pnw-prod-8995945.jpg"
 				alt="Group of six muslim women sitting on the beach, looking at the sea with their backs to the camera and wearing clothing in white and pink tones."
 				className={style.footer__img}
 			/>
@@ -48,7 +48,7 @@ const Footer = () => {
 				</li>
 			</nav>
 			<img
-				src="./ML-logo-small.svg"
+				src="/ML-logo-small.svg"
 				alt="logo modest luxury"
 				className={style.footer__logo}
 			/>

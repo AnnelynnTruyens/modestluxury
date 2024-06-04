@@ -13,7 +13,7 @@ const Categories = () => {
 				>
 					<img
 						className={style.links__card_img1}
-						src="./pexels-pnw-prod-8995985.jpg"
+						src="/pexels-pnw-prod-8995985.jpg"
 						alt="Group of six muslim women walking to the sea with their backs to the camera and all wearing clothing in white and pink tones."
 					/>
 					<div className={style.links__card_textbox1}>
@@ -29,7 +29,7 @@ const Categories = () => {
 					</div>
 					<img
 						className={style.links__card_img2}
-						src="./pexels-pnw-prod-8995907.jpg"
+						src="/pexels-pnw-prod-8995907.jpg"
 						alt="Four muslim women standing on a beach with their eyes closed, all wearing clothes in white and pink tones."
 					/>
 				</Link>
@@ -39,7 +39,7 @@ const Categories = () => {
 				>
 					<img
 						className={style.links__card_img3}
-						src="./pexels-pnw-prod-8995974.jpg"
+						src="/pexels-pnw-prod-8995974.jpg"
 						alt="Group of six muslim women standing in front of the sea, laughing together and all wearing clothing in white and pink tones."
 					/>
 					<div className={style.links__card_textbox1}>
@@ -55,7 +55,7 @@ const Categories = () => {
 					</div>
 					<img
 						className={style.links__card_img4}
-						src="./pexels-pnw-prod-8995983.jpg"
+						src="/pexels-pnw-prod-8995983.jpg"
 						alt="Six muslim women walking on the beach, talking and laughing, all wearing clothes in white and pink tones."
 					/>
 				</Link>
@@ -65,7 +65,7 @@ const Categories = () => {
 				>
 					<img
 						className={style.links__card_img5}
-						src="./pexels-pnw-prod-8995940.jpg"
+						src="/pexels-pnw-prod-8995940.jpg"
 						alt="Group of three muslim women standing in front of the sea, smiling into the camera and all wearing clothing in white and pink tones."
 					/>
 					<div className={style.links__card_textbox1}>

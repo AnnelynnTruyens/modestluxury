@@ -7,7 +7,7 @@ const Header = () => {
 		<header className={style.header}>
 			<Link to={ROUTES.home} className={style.header__logo}>
 				<img
-					src="./ML-logo.svg"
+					src="/ML-logo.svg"
 					alt="logo modest luxury"
 					className={style.header__logo_img}
 				/>
@@ -24,7 +24,7 @@ const Header = () => {
 					}}
 				>
 					<img
-						src="./favorite_icon.svg"
+						src="/favorite_icon.svg"
 						alt="icon favorieten"
 						className={style.header__nav_img}
 					/>
@@ -40,7 +40,7 @@ const Header = () => {
 					}}
 				>
 					<img
-						src="./cart_icon.svg"
+						src="/cart_icon.svg"
 						alt="icon winkelwagen"
 						className={style.header__nav_img}
 					/>
@@ -56,7 +56,7 @@ const Header = () => {
 					}}
 				>
 					<img
-						src="./user_icon.svg"
+						src="/user_icon.svg"
 						alt="icon gebruiker"
 						className={style.header__nav_img}
 					/>

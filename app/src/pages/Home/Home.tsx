@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<>
 			<img
-				src="./pexels-pnw-prod-8995824.jpg"
+				src="/pexels-pnw-prod-8995824.jpg"
 				alt="Group of six muslim women sitting around a table on the beach, all looking at the camera and wearing clothing in white and pink tones."
 				className={style.hero}
 			/>
@@ -21,7 +21,7 @@ const Home = () => {
 				<Link to={ROUTES.categories} className={style.links__card}>
 					<img
 						className={style.links__card_img1}
-						src="./pexels-pnw-prod-8995985.jpg"
+						src="/pexels-pnw-prod-8995985.jpg"
 						alt="Group of six muslim women walking to the sea with their backs to the camera and wearing clothing in white and pink tones."
 					/>
 					<div className={style.links__card_textbox}>
@@ -34,7 +34,7 @@ const Home = () => {
 					</div>
 					<img
 						className={style.links__card_img2}
-						src="./pexels-pnw-prod-8995907.jpg"
+						src="/pexels-pnw-prod-8995907.jpg"
 						alt="Four muslim women standing on a beach with their eyes closed, all wearing clothes in white and pink tones."
 					/>
 				</Link>
