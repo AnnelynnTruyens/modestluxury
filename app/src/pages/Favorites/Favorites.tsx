@@ -114,7 +114,7 @@ const Favorites = () => {
 								>
 									<img
 										className={style.product__card_img}
-										src="/src/assets/ML-logo-small.svg"
+										src="./ML-logo-small.svg"
 										alt="product image"
 									/>
 									<div className={style.product__card_text}>

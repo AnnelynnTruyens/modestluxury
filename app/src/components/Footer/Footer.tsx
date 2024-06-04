@@ -48,7 +48,7 @@ const Footer = () => {
 				</li>
 			</nav>
 			<img
-				src="/src/assets/ML-logo-small.svg"
+				src="./ML-logo-small.svg"
 				alt="logo modest luxury"
 				className={style.footer__logo}
 			/>
